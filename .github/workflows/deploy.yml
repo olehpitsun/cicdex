@@ -20,4 +20,5 @@ jobs:
             cd test1
             touch t.php
             git clone git@github.com:olehpitsun/cicdex.git
+            ${{ secrets.SERVER_PASSPHRASE }}
             echo 'Deployment successful to digital ocean' 
