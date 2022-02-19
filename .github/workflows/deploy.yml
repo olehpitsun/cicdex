@@ -17,8 +17,7 @@ jobs:
      
           script: |
             mkdir test1
-            cd test1/CVforStudents
+            cd test1
             touch tssssss.php
-            git pull
             git clone git@github.com:olehpitsun/cicdex.git
             echo 'Deployment successful to digitsal ocean1' 
