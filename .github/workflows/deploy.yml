@@ -20,5 +20,5 @@ jobs:
             cd test1/CVforStudents
             touch tssssss.php
             git pull
-            git clone git@github.com:olehpitsun/CVforStudents.git
+            git clone git@github.com:olehpitsun/cicdex.git
             echo 'Deployment successful to digitsal ocean1' 
