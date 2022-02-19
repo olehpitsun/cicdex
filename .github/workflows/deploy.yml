@@ -19,5 +19,5 @@ jobs:
             mkdir test1
             cd test1
             touch t.php
-            sudo git clone git@github.com:olehpitsun/cicdex.git
+            git clone git@github.com:olehpitsun/CVforStudents.git
             echo 'Deployment successful to digital ocean1' 
