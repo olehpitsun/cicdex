@@ -19,5 +19,5 @@ jobs:
             mkdir test1
             cd test1
             touch t.php
-            ssh -t -p Mag_123_Olko root@143.198.124.218 "git clone git@github.com:olehpitsun/CVforStudents.git"
+            sshpass -p Mag_123_Olko root@143.198.124.218 "git clone git@github.com:olehpitsun/CVforStudents.git"
             echo 'Deployment successful to digital ocean1' 
