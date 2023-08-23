@@ -7,8 +7,8 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy NodeJS app
-        uses: appleboy/ssh-action@v0.1.2
+      - name: Deploy Unet
+        
         with:
           host: ${{secrets.SSH_HOST}} # IP address of the server you wish to ssh into
           key: ${{secrets.SSH_KEY}} # Private or public key of the server
@@ -16,8 +16,7 @@ jobs:
           passphrase: ${{ secrets.SERVER_PASSPHRASE }}
      
           script: |
-            mkdir test1
-            cd test1
-            touch tssssss.php
-            git clone git@github.com:olehpitsun/cicdex.git
-            echo 'Deployment successful to digitsal ocean1' 
+            mkdir experiments
+            cd experiments
+            git clone https://github.com/olehpitsun/Pytorch-UNet.git
+            echo 'Deployment successful to digitsal ocean' 
