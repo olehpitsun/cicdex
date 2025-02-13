@@ -19,4 +19,4 @@ jobs:
             mkdir test 
             cd test 
             git clone https://github.com/olehpitsun/cicdex.git 
-            echo 'Deployment successful to digital ocean 1' 
+            echo 'Deployment successful to digital ocean d1' 
